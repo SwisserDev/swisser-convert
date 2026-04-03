@@ -1,0 +1,49 @@
+{
+  "name": "swisser-convert",
+  "version": "1.0.0",
+  "description": "Convert GLB 3D models to FiveM-ready resources from your terminal",
+  "type": "module",
+  "bin": {
+    "swisser-convert": "./dist/cli.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "fivem",
+    "glb",
+    "gltf",
+    "3d",
+    "converter",
+    "gta5",
+    "resource",
+    "cli",
+    "swisser"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swisser-ai/swisser-convert"
+  },
+  "author": "Swisser AI",
+  "homepage": "https://ai.swisser.dev",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "citty": "^0.2.2",
+    "picocolors": "^1.1.1",
+    "pretty-bytes": "^7.1.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}
