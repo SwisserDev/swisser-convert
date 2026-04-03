@@ -166,7 +166,7 @@ function handleError(err: unknown): never {
   if (err instanceof RateLimitError) {
     p.log.warn(
       [
-        `Daily limit reached ${pc.dim('(3 free conversions per day)')}`,
+        `Hourly limit reached ${pc.dim('(10 free conversions per hour)')}`,
         `  ${pc.bold(err.humanRetry)}`,
         '',
         `  ${pc.dim('Unlimited conversions at')} ${pc.cyan('https://ai.swisser.dev')}`,

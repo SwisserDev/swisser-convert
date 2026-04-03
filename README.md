@@ -84,7 +84,7 @@ Extract the ZIP into your FiveM server's `resources/` folder and add `ensure <re
 
 ## Limits
 
-The public API allows **3 conversions per day** per IP address. Files up to **50 MB** are supported.
+The public API allows **10 conversions per hour** per IP address. Files up to **50 MB** are supported.
 
 Need more? Visit [ai.swisser.dev](https://ai.swisser.dev) for unlimited conversions.
 
