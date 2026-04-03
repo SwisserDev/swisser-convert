@@ -1,6 +1,6 @@
 {
   "name": "swisser-convert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert GLB 3D models to FiveM-ready resources from your terminal",
   "type": "module",
   "bin": {
