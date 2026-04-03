@@ -139,7 +139,7 @@ const main = defineCommand({
       console.log('');
       console.log(`  ${pc.green(pc.bold('\u2713'))} ${pc.bold(outputPath)}`);
       console.log('');
-      console.log(`  ${pc.dim('Size')}       ${prettyBytes(zipArtifact?.sizeBytes || bytes)}`);
+      console.log(`  ${pc.dim('Size')}       ${prettyBytes(Number(zipArtifact?.sizeBytes) || bytes)}`);
       console.log(`  ${pc.dim('Artifacts')}  ${artifacts.join(pc.dim(', '))}`);
       console.log(`  ${pc.dim('Time')}       ${elapsed}s`);
       console.log('');
