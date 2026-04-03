@@ -10,7 +10,7 @@ Convert GLB 3D models to FiveM-ready resources from your terminal.
  ┌  swisser-convert v1.0.0
  │
  ◇  File: my_car.glb (14.2 MB)
- ��
+ │
  ◇  Upload complete
  │
  ◇  Conversion complete
